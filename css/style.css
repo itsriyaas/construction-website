@@ -481,7 +481,7 @@ section {
   transform: scale(1.1);
 }
 .projects .box-container .box .image {
-  height: 40rem;
+  height: 20rem;
   overflow: hidden;
 }
 .projects .box-container .box .image img {
