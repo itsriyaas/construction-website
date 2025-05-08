@@ -24,12 +24,23 @@
     />
 
 </head>
-
+<style>
+  .card-title {
+    font-weight: bold;
+    color: #333;
+  }
+  ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+</style>
 <body>
 
    <!-- HEADER -->
    <header class="header">
-      <a href="#" class="logo" style="text-decoration: none;">Adorn<span>Builders</span></a>
+    <a href="/index.html" class="logo" style="text-decoration: none"
+      >Adorn<span>Builders</span></a
+    >
 
       <nav class="navbar">
          <a href="./index.html">home</a>
@@ -75,10 +86,137 @@
 
 <!-- Content section -->
 
-<section class="standard">
-    <h2 class="heading">Standard</h2>
-</section>
-
+<section class="standard py-5">
+    <h2 class="heading mb-4">Standard Houses</h2>
+  
+    <div id="carouselExampleAutoplaying" class="carousel slide mx-auto" data-bs-ride="carousel" style="max-width: 900px;">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/standared.jpeg" class="d-block w-100 img-fluid rounded" alt="Standard House 1">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/p3.jpeg" class="d-block w-100 img-fluid rounded" alt="Standard House 2">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/p6.jpeg" class="d-block w-100 img-fluid rounded" alt="Standard House 3">
+        </div>
+      </div>
+  
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+  
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  
+  <section class="construction-specs py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5 display-6 fw-bold" data-aos="fade-up">Construction Specifications</h2>
+  
+      <div class="row g-4">
+        <!-- Foundation & Structure -->
+        <div class="col-md-6" data-aos="fade-right" data-aos-delay="100">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body fs-4">
+              <h5 class="card-title fs-4 fw-bold">Foundation & Structure</h5>
+              <ul>
+                <li>Random rubble: Foundation (60x60cm dry), Basement (45x45cm C.M)</li>
+                <li>Leveling bed + Earth filling with compacted sand (slurry)</li>
+                <li>Anti-termite treatment as per spec</li>
+                <li>RCC belt work 1:2:4 (45x10/15cm)</li>
+                <li>RCC columns 1:2:4 in sit-out</li>
+                <li>Corner pillars up to ground floor slab</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Superstructure & Finishing -->
+        <div class="col-md-6" data-aos="fade-left" data-aos-delay="200">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body fs-4">
+              <h5 class="card-title fs-4 fw-bold">Superstructure & Finishing</h5>
+              <ul>
+                <li>Cement Block work in C.M. 1:7 (30x20x15cm), 3m/floor</li>
+                <li>RCC 1:2:4 slab, shade, stair, beam, lintel</li>
+                <li>Main slab: 8mm TMT @ 15cm c/c, 10cm thick</li>
+                <li>Shade: 50mm thick, Lintel: 150mm thick</li>
+                <li>Waterproofing (Dr. Fixit) for sunken slab</li>
+                <li>Plastering: Walls (15mm), Ceiling (12mm)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Flooring & Tiling -->
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body fs-4">
+              <h5 class="card-title fs-4 fw-bold">Flooring & Tiling</h5>
+              <ul>
+                <li>PCC 1:4:8, 20mm metal, 5cm thick</li>
+                <li>Vitrified tiles ₹60/sqft (1200x600mm)</li>
+                <li>Skirting: 4", matching tiles</li>
+                <li>Kitchen: Anti-skid ceramic tiles ₹55/sqft</li>
+                <li>Toilets: Anti-skid 30x30cm tiles (max ₹50/sqft), epoxy finish</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Woodwork & Doors -->
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body fs-4">
+              <h5 class="card-title fs-4 fw-bold">Woodwork & Doors</h5>
+              <ul>
+                <li>Main Door: Teak wood (₹40,000)</li>
+                <li>Windows: Aini frame, Anjali shutter, 3.5mm glass</li>
+                <li>Internal Doors: Aini frame, membrane shutters</li>
+                <li>Toilet Doors: Sintex (₹3,000 max)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Electrical & Plumbing -->
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body fs-4">
+              <h5 class="card-title fs-4 fw-bold">Electrical & Plumbing</h5>
+              <ul>
+                <li>KSEB - single-phase, DB, ELCB/MCB</li>
+                <li>Bedroom/Dining/Living: Light, Fan, Socket, TV, AC Points</li>
+                <li>Kitchen: Lights, Exhaust, Fridge, Inverter, Purifier</li>
+                <li>3-layer water tank (1000 L) - ₹6,000</li>
+                <li>Sanitary fittings as per drawing</li>
+                <li>3 Drainage pits</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Painting Works -->
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="600">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body fs-4">
+              <h5 class="card-title fs-4 fw-bold">Painting Works</h5>
+              <ul>
+                <li>Applying white cement - 1 coat</li>
+                <li>Applying primer - 1 coat</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
 
 <!-- FOOTER -->
 <footer class="bg-dark text-white py-5">
@@ -99,7 +237,7 @@
   
         <!-- Credit -->
         <div class="col-12 col-md-4 text-center text-md-end">
-          <small class="fs-4">Created by <span class="text-primary fw-bold">Thea IT Solutions</span> | All rights reserved</small>
+          <small class="fs-4">Created by <span class="text-secondary fw-bold">Thea IT Solutions</span> | All rights reserved</small>
         </div>
       </div>
     </div>
@@ -119,11 +257,15 @@
  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+ <!-- AOS CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+<!-- AOS JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
  <!-- Custom JS File Link  -->
  <script src="js/script.js"></script>
 
  <script>
-
+  AOS.init();
     lightGallery(document.querySelector('.projects .box-container'));
  </script>
 
