@@ -90,6 +90,9 @@ section {
 .header .logo span {
   color: var(--yellow);
 }
+.header img{
+  width: 100px;
+}
 .header .navbar a {
   font-size: 2rem;
   color: var(--black);
