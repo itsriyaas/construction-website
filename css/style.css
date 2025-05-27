@@ -332,7 +332,7 @@ section {
 }
 .home .slide .content p {
   font-size: 1.4rem;
-  color: var(--light-color);
+  color: rgb(189, 189, 189);
   line-height: 2;
   padding: 1rem 0;
 }
